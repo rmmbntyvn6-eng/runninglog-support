@@ -1,0 +1,14 @@
+:root { color-scheme: light dark; font: 100%/1.8 -apple-system, BlinkMacSystemFont, sans-serif; }
+body { margin: 0; color: #202323; background: #fff; }
+main { max-width: 44rem; margin: auto; padding: 2rem 1.25rem 4rem; }
+header { color: #536466; border-bottom: 1px solid #b9c7c5; padding-bottom: .75rem; }
+h1 { font-size: 2rem; line-height: 1.4; }
+h2 { margin: 2rem 0 .5rem; font-size: 1.2rem; }
+p { margin: .6rem 0; }
+a { color: #00665d; text-underline-offset: .2em; }
+.date { color: #536466; font-size: .9rem; }
+@media (prefers-color-scheme: dark) {
+  body { color: #eee; background: #191b1b; }
+  header, .date { color: #bac6c4; }
+  a { color: #89dace; }
+}
